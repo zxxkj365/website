@@ -45,22 +45,22 @@ $(function() {
 			+'<img src="indexImg/ourEWM.png" style="width: 2rem;">'
 		+'</div>'
 		+'<div class="div1">'
-			+'<p>总部AI总监</p>'
+			+'<p>公司信息：</p>'
 			+'<p>'
-				+'<span><i class="iconfont icon-dianhua"></i>张先生：</span>18600428988'
+				
 			+'</p>'	
 			+'<p>'
-				+'<span><i class="iconfont icon-dizhi"></i>地&nbsp;&nbsp;址：</span>北京市朝阳区国门大厦A座4层4N'
+				+'<span><i class="iconfont icon-dizhi"></i>地&nbsp;&nbsp;址：</span>北京市朝阳区国门大厦'
 			+'</p>'
 			+'<p>'
-				+'<span><i class="iconfont icon-youxiang"></i>邮&nbsp;&nbsp;箱：</span>liuzl@supermp.com'
+				+'<span><i class="iconfont icon-youxiang"></i>邮&nbsp;&nbsp;箱：</span>support@supermp.com'
 			+'</p>'	
 			+'<p>'
-				+'<span><i class="iconfont icon-weixin"></i>微&nbsp;&nbsp;信：</span>13121605757'
+				
 			+'</p>'
 		+'</div>'
 		+'<div style="clear: both;"></div>'
-		+'<p style="font-size:0.43rem;text-align:center;line-height:1rem;"><i class="iconfont icon-dianhua" style="font-size:0.43rem;margin:0 0.17rem;"></i>400-0066-818</p>'
+		
 		+'<div style="text-align: center;font-size:0.10rem;"><strong>&copy;北京知行信科技有限公司</strong><br /><strong>语音识别技术由科大讯飞提供</strong><br /><strong>京ICP编号：B2-20171816</strong><br /><a href="http://www.beian.miit.gov.cn" target="_blank" class="icp" style="color: #cfcfd4;">京ICP备17042959号</a></div>'
 		$('#footer').html(str);
 	}
