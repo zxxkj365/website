@@ -1,0 +1,166 @@
+.main1{
+    width:100%;
+   margin: 0 auto;
+}
+.nav2Div{
+	width: 100%;
+	height: 0.8rem;
+	background: #f7f8fb;
+}
+.nav2Box{
+	width: 100%;
+    height: 0.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.nav2Box .aboutNav2{
+	width: 2.3rem;
+	height: 0.8rem;
+	background: #f7f8fb;
+	border: none;
+	border-bottom: 0.04rem solid #f7f8fb;
+	color: #999;
+	font-size: 0.28rem;
+	font-family: "microsoft yahei";	
+}
+.nav2Box .activeAboutBtn{
+	color: #4a90e2;
+	border-bottom: 0.04rem solid #4a90e2;
+}
+.aboutMain2{
+	display: none;
+}
+/*公司简介*/
+.main2{
+	width:100%;
+	padding: 1px 0;
+}
+.aboutMain2_1{
+	width:5.16rem;
+	margin: 0.79rem auto 1rem;
+}
+.aboutMain2_1Div{
+	width: 5.16rem;
+	margin: 0 auto;
+}
+.aboutMain2_1Div h4{
+	font-family: "microsoft yahei";
+	font-size: 0.34rem;
+	color: #333;
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+.aboutMain2_1Div p{
+	font-family: "microsoft yahei";
+	font-size: 0.26rem;
+	color: #666;
+}
+.aboutMain2_1img{
+	width: 5.16rem;
+	float: left;
+	margin: 0 auto 0.52rem;
+}
+.aboutMain2_2{
+	background: url(../aboutImg/aboutMain2_2bj.jpg) no-repeat;
+    background-size: 100%;
+    width:7.5rem;
+    height:6.31rem;
+    padding-top: 1px;
+}
+.aboutMain2_2BannerZZ{
+	padding-top: 1px;
+    width: 6.31rem;
+    padding: 0.4rem 0.3rem;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.3);
+    border-radius: 0.08rem;
+    overflow:hidden;
+}
+.aboutMain2_2BannerBox{
+	width: 6.31rem;
+	overflow: hidden;
+	height: 2.09rem;
+	float: left;
+	list-style: none;
+}
+.aboutMain2_2BannerUl{
+	width:49.28rem;
+	animation: imgAnimation 10s linear infinite ; 
+}
+ @keyframes imgAnimation{
+    from{}
+    to{
+        transform:translate(-24.64rem);
+    }
+}
+.aboutMain2_2BannerUl:hover{
+    animation-play-state:paused; 
+}
+.aboutMain2_2BannerUl li img{
+	width:2.96rem;
+	height:1.89rem;
+}
+.aboutMain2_2BannerUl li{
+	float: left;
+	padding: 0.1rem;
+	background: #fff;
+	margin-right: 0.36rem;
+}
+.mainH3{
+	font-family: "PingFang-SC-Medium";
+	font-size: 0.42rem;
+	color: #333;
+	text-align: center;
+	width:100%;
+	line-height: 0.42rem;
+	margin: 1rem auto 0.33rem;
+}
+.mainP1{
+	font-family: "PingFang-SC-Medium";
+	font-size: 0.22rem;
+	color: #666;
+	text-align: center;
+	width:100%;
+	line-height: 0.22rem;
+	margin: 0 auto;
+}
+.heng{
+	width:0.43rem;height: 0.06rem;background: #4a90e2;margin: 0.22rem auto 0.33rem;
+}
+.aboutMain2_3img{
+	width: 6.84rem;
+	margin: 0 auto 1rem;
+}
+/*加入我们*/
+.aboutMain2join img{
+	margin-top: 0.4rem;
+	width: 100%;
+}
+/*联系我们*/
+.aboutMain2callBox{
+	width: 100%;
+	padding: 0.4rem 0 0.6rem;
+}
+.aboutMain2callBox p{
+	font-size: 0.24rem;
+	font-family: "microsoft yahei";	
+	margin: 0.39rem 0;
+	color: #333;
+}
+.aboutMain2callBox .aboutMain2span1{
+	color: #666;
+	
+}
+.icon_call{
+	width: 0.22rem;
+	margin:0 0.16rem 0 0.3rem;
+	display: inline-block;
+	position: relative;
+    top: 0.02rem;
+}
+.aboutMain2callBox .companyAddress{
+	width: 6.9rem;
+	margin: 0 auto;
+}

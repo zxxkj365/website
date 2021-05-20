@@ -1,0 +1,353 @@
+.title {
+	width: 1400px;
+	height: 128px;
+	position: relative;
+	margin: 0 auto;
+}
+.title .line-l {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .line-r {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .title-con {
+	height: 140px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.title .title-con .tit {
+	color: #333;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.title .title-con .sub-tit {
+	color: #999999;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Regular';
+}
+.title.f-white .title-con .tit, .title.f-white .title-con .sub-tit {
+	color: #fff;
+}
+
+
+.thinBlue {
+	background: #398CEE;
+}
+.darkBlue {
+	background: #2572CB;
+}
+
+.main1{
+    width: 1920px;
+    height: 1277px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.main1 .glide {
+	width: 51px;
+	height: 50px;
+	background: url(../img/index_new/xh.png) no-repeat;
+	position: absolute;
+	top: 619px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+}
+.main1 .introBox {
+	width: 1404px;
+	height: 636px;
+	position: absolute;
+	bottom: -318px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+}
+.main1 .introBox .item {
+	float: left;
+	width: 468px;
+	height: 318px;
+	color: #fff;
+	cursor: pointer;
+}
+.main1 .introBox .item .img {
+	margin: 60px auto 0;
+}
+.main1 .introBox .item .tit {
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 38px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 1;
+}
+.main1 .introBox .item .sub-tit {
+	font-family: 'SourceHanSansCN-Regular';
+	font-size: 32px;
+	margin-top: 19px;
+	text-align: center;
+	line-height: 1;
+}
+.main1 .introBox .item .detail {
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	padding: 60px 47px 0;
+	line-height: 50px;
+}
+/*盈乎云客服*/
+.yhCustomerService .content {
+	width: 1400px;
+	margin: 0 auto 277px;
+}
+.yhCustomerService .content .row {
+	display: flex;
+	justify-content: space-between;
+}
+.yhCustomerService .content .row .item {
+	width: 190px;
+}
+.yhCustomerService .content .row .item .img {
+	margin: 0 auto;
+}
+.yhCustomerService .content .row .item .tit {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 38px;
+	text-align: center;
+	color: #666666;
+	line-height: 1;
+	margin-top: 40px;
+}
+
+/*智能营销*/
+.smartMarketing {
+	height: 1248px;
+	background: url(../img/index_new/znyx-bg.png) no-repeat;
+}
+.smartMarketing .content .l-intro {
+	margin-top: 34px;
+	line-height: 1;
+	color: #FFFFFF;
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 28px;
+	text-align: center;
+}
+.smartMarketing .content .items {
+	width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+}
+.smartMarketing .content .items .item {
+	width: 295px;
+	height: 729px;
+	border-radius: 10px;
+	position: relative;
+}
+.smartMarketing .content .items .item .absolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+	border-radius: 10px;
+	opacity: 0.1;
+	z-index: 0;
+}
+.smartMarketing .content .items .item .item-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.smartMarketing .content .items .item .img {
+	margin: 75px auto 0;
+}
+.smartMarketing .content .items .item .tit {
+	margin-top: 42px;
+	text-align: center;
+	color: #fff;
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 32px;
+}
+.smartMarketing .content .items .item .detail {
+	margin-top: 37px;
+	padding: 0 31px 0 37px;
+	color: #fff;
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 24px;
+	line-height: 38px;
+	text-align: center;
+}
+
+/*AI机器人*/
+.AIRobot .content {
+	width: 1400px;
+	margin: 102px auto 0;
+}
+.AIRobot .content .row {
+	display: flex;
+	justify-content: space-between;
+}
+.AIRobot .content .row .item {
+	width: 402px;
+	height: 315px;
+}
+.AIRobot .item.plcz {
+	background: url(../img/index_new/plcz.png) no-repeat;
+}
+.AIRobot .item.syytd {
+	background: url(../img/index_new/syytd.png) no-repeat;
+}
+.AIRobot .item.yxflmq {
+	background: url(../img/index_new/yxflmq.png) no-repeat;
+}
+.AIRobot .item.rgjr {
+	background: url(../img/index_new/rgjr.png) no-repeat;
+}
+.AIRobot .item.hsbj {
+	background: url(../img/index_new/hsbjlh.png) no-repeat;
+}
+.AIRobot .item.dwdsj {
+	background: url(../img/index_new/dwsjfx.png) no-repeat;
+}
+.AIRobot .content .row .item .tit {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 32px;
+	color: #000;
+	margin-top: 154px;
+	text-align: center;
+}
+.AIRobot .content .row .item .detail {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 22px;
+	color: #888;
+	margin-top: 26px;
+	text-align: center;
+	padding: 0 32px;
+}
+
+/*在线客服*/
+.onlineService .content {
+	width: 1400px;
+	margin: 99px auto 212px;
+}
+.onlineService .content .row {
+	display: flex;
+	justify-content: space-between;
+}
+.onlineService .content .row .item {
+	width: 180px;
+}
+.onlineService .content .row .item .img {
+	margin: 0 auto;
+}
+.onlineService .content .row .item .tit {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 38px;
+	color: #999999;
+	text-align: center;
+	margin-top: 27px;
+}
+
+/*通讯资源保障*/
+.communicationResource {
+	position: relative;
+	height: 1332px;
+	background: url(../img/index_new/zjbz-bg.png) no-repeat;
+}
+.communicationResource .l-img {
+	position: absolute;
+}
+.communicationResource .content {
+	margin-left: 1054px;
+}
+.communicationResource .content .tit {
+	margin-top: 112px;
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 52px;
+	color: #fff;
+	line-height: 1;
+}
+.communicationResource .content .sub-tit {
+	position: relative;
+	margin-top: 112px;
+	color: #FFFFFF;
+	font-size: 36px;
+	font-family: 'SourceHanSansCN-Medium';
+	line-height: 1;
+}
+.communicationResource .content .sub-tit .img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -132px;
+	margin: auto;
+}
+
+/*语音服务*/
+.voiceService .content {
+	display: flex;
+	justify-content: space-between;
+	width: 1400px;
+	margin: 147px auto 209px;
+}
+.voiceService .content .item {
+	width: 410px;
+	height: 562px;
+}
+.voiceService .content .item .tit {
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 34px;
+	color: #333;
+	line-height: 1;
+	margin-top: 303px;
+	text-align: center;
+}
+.voiceService .content .item .detail {
+	font-family: 'SourceHanSansCN-Regular';
+	font-size: 28px;
+	color: #777;
+	margin-top: 25px;
+	text-align: center;
+	padding: 0 28px;
+}
+.voiceService .item.yysb {
+	background: url(../img/index_new/yysb.png);
+}
+.voiceService .item.yyhc {
+	background: url(../img/index_new/yyhc.png);
+}
+.voiceService .item.yyzj {
+	background: url(../img/index_new/yyzj1.png);
+}
+
+/*合作伙伴*/
+.partner {
+	height: 1181px;
+	background: url(../img/index_new/fwly-bg.png) no-repeat;
+}
+.partner .img-logo {
+	margin: 116px auto 0;
+}

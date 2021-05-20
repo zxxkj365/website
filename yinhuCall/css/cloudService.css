@@ -1,0 +1,226 @@
+.main1{
+	background: url(../img/cloudService/banner.png) no-repeat;
+    background-size: 100%;
+    width: 1920px;
+    height: 1154px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.main1 span {
+	color: #FFFFFF;
+	font-size: 35px;
+	position: absolute;
+	top: 714px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.main1 .introBox {
+	width: 1400px;
+	height: 335px;
+	background: #FFFFFF;
+	border-radius: 22px;
+	position: absolute;
+	bottom: -166px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 5px 20px #E3E8EE;
+}
+.main1 .introBox .img {
+	position: absolute;
+	left: 60px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.main1 .introBox .introContent {
+	width: 871px;
+	height: 215px;
+	position: absolute;
+	left: 446px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #999999;
+	font-size: 28px;
+	line-height: 64px;
+}
+.title {
+	width: 1400px;
+	height: 128px;
+	position: relative;
+	margin: 0 auto;
+}
+.title .line-l {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .line-r {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .title-con {
+	width: 410px;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.title .title-con .tit {
+	color: #333;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.title .title-con .sub-tit {
+	color: #999999;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Regular';
+}
+.repository .title .tit, .repository .title .sub-tit{
+	color: #fff;
+}
+/*云客服平台*/
+.cloudPlatform .content {
+	width: 1400px;
+	margin: 0 auto;
+}
+.cloudPlatform .content .row {
+	display: flex;
+	justify-content: space-between;
+}
+.cloudPlatform .content .item {
+	width: 286px;
+}
+.cloudPlatform .content .item .icon-bg {
+	width: 56px;
+	height: 56px;
+}
+.cloudPlatform .content .item .tit {
+	font-size: 32px;
+	color: #333333;
+	font-family: 'SourceHanSansCN-Medium';
+	margin-top: 35px;
+}
+.cloudPlatform .content .item .detail {
+	font-size: 22px;
+	color: #999999;
+	font-family: 'SourceHanSansCN-Medium';
+	margin-top: 16px;
+}
+/*云客服平台功能*/
+.platformFun .content {
+	padding-bottom: 227px;
+	background: url(../img/onlineService/datafun-bg.png) no-repeat;
+}
+.platformFun .content .item {
+	width: 1400px;
+	margin: 0 auto;
+}
+.platformFun .content .item .detailBox .l-item {
+	width: 550px;
+	position: relative;
+	margin-top: 10px;
+}
+.platformFun .content .item .detailBox .l-item .dot {
+	position: absolute;
+	top: 8px;
+	left: -37px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #0088FB;
+}
+.platformFun .content .item .detailBox .l-item .l-tit {
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 24px;
+	color: #333;
+}
+.platformFun .content .item .detailBox .l-item .l-detail {
+	width: 550px;
+	min-height: 70px;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 18px;
+	color: #999;
+}
+/*知识库*/
+.repository {
+	height: 986px;
+	background: url(../img/cloudService/knowledge-bg.png);
+}
+.repository .content {
+	width: 1400px;
+	margin: 148px auto 0;
+}
+.repository .content .row {
+	display: flex;
+	justify-content: space-around;
+}
+.repository .content .row .item {
+	width: 395px;
+	position: relative;
+}
+.repository .content .row .item .img {
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+.repository .content .row .intro {
+	width: 278px;
+	margin-left: 117px;
+	color: #fff;
+}
+.repository .content .row .intro .tit {
+	font-family: 'SourceHanSansCN-Bold';
+	font-size: 36px;
+}
+.repository .content .row .intro .detail {
+	font-family: 'SourceHanSansCN-Regular';
+	font-size: 22px;
+}
+/*数据报表*/
+.dataReport {
+	height: 1002px;
+}
+.dataReport .content {
+	width: 1400px;
+	margin: 137px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.dataReport .content .item {
+	width: 318px;
+}
+.dataReport .content .item .img {
+	margin: 0 auto;
+}
+.dataReport .content .item .tit {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 38px;
+	color: #333;
+	text-align: center;
+	margin-top: 38px;
+}
+.dataReport .content .item .detail {
+	font-family: 'SourceHanSansCN-Medium';
+	font-size: 26px;
+	color: #999;
+	text-align: center;
+	margin-top: 23px;
+}

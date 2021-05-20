@@ -1,0 +1,50 @@
+.main1 img{
+	width: 100%;
+}
+.main2{
+	width: 6.9rem;	
+	margin: 0 auto;
+	padding: 1px 0;
+	border-bottom:1px solid #e6e6e6;
+}
+.main2h3{
+	margin: 0.3rem auto;	
+	font-family: "PingFang-SC_Regular";
+	font-size: 0.32rem;
+	color: #333;
+	border-left: 6px solid #6a9be8;
+	text-indent: 1em;
+}
+.main3{
+	width: 6.9rem;	
+	margin: 0 auto;
+}
+.main2newBox li{
+	padding: 0.49rem 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+.main2newBox .main2img{
+	width: 2.5rem;
+	height: 1.8rem;
+	float: left;
+}
+.main2newDiv{
+	float: left;
+	width: 4rem;
+	padding-left: 0.2rem;
+	position: relative;
+}
+.main2newDiv h4{
+	margin: 0.12rem 0 0.2rem;
+	font-family: "microsoft yahei";
+	color: #555;
+	font-size: 0.32rem;
+	font-weight: 900;
+}
+.main2newDiv p{
+	font-family: "microsoft yahei";
+	color: #999;
+	font-size: 0.22rem;
+	font-weight: 100;
+}
+

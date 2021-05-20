@@ -1,0 +1,192 @@
+.main1{
+	background: url(../img/productImg/main1bj.jpg) no-repeat;
+    background-size: 100%;
+    width:1920px;
+    height:999px;
+    padding-top: 1px;
+}
+.experienceBtn{
+	display: block;
+    width: 283px;
+    height: 78px;
+    line-height: 78px;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    border-radius: 38px;
+    margin: 650px 926px 0;
+    background: #4a90e2;
+}
+.icon__more{
+	position: relative;
+    top: 1px;
+    width: 29px;
+    margin-left:30px;
+    display: inline-block;
+}
+.icon_up{
+	width: 97px;
+	height:97px;
+	margin: -48px auto;
+	
+}
+.mainH3{
+	font-size: 42px;
+	color: #333;
+	text-align: center;
+	width:1920px;
+	line-height: 42px;
+	margin: 110px auto 32px;
+}
+.mainP1{
+	font-size: 22px;
+	color: #666;
+	text-align: center;
+	width:1920px;
+	line-height: 22px;
+	margin: 0 auto;
+}
+.heng{
+	width:43px;height: 6px;background: #4a90e2;margin: 30px auto 0px;
+}
+.main2Box{
+	width: 1476px;
+	margin: 140px auto 160px;
+}
+.main2Box dl{
+    width: 416px;
+    height: 501px;
+    margin: 0 38px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.06);
+    float: left;
+}
+.main2Box dl p{
+	font-size: 21px;
+	color: #666;
+	padding: 30px;
+}
+
+.audioBox{
+	padding: 10px 110px;
+}
+.voiceBox{
+	width: 35px;
+	margin-right: 26px;
+	padding: 21px 0;
+}
+.replayBox{
+	width: 28px;
+	margin-left: 30px;
+	padding: 21px 0;
+}
+.replayBox,.playBox,.voiceBox{
+	float: left;
+}
+.main3{
+	background: #fff;
+    width:1920px;
+    height:1892px;
+    padding-top: 1px;
+}
+.main3xian{
+	background: url(../img/indexImg/main3xian.png) no-repeat;
+    background-size: 100%;
+    width:894px;
+    height:1445px;
+    padding-top: 1px;
+    margin: 0 auto;
+    position: relative;
+}
+.main3p1{
+	font-size: 22px;
+	color: #333;
+	text-align: left;
+	width:288px;
+	line-height: 22px;
+	display: inline-block;
+	margin-top: 26px;
+}
+.main3p2{
+	font-size: 16px;
+	color: #666;
+	text-align: left;
+	width:288px;
+	line-height: 22px;
+	display: inline-block;
+	
+}
+.main3xian div{
+	width:523px;
+	height:140px; 
+	background:rgba(255,255,255,1);
+	border-radius: 69px; 
+	position: absolute;
+	opacity: 0;
+	box-shadow:0px 0px 40px rgba(0,0,0,0.06) 
+}
+.main3xian .divScroll{
+	transition: all 1s;
+	animation: scrollOne 2s ease; 
+	opacity: 1;
+	z-index: 1;
+}
+ @keyframes scrollOne{
+    from{transform: translateY(-45px) rotateX(0deg);
+     opacity: 0;}
+    to{transform: translateY(0px) rotateX(360deg);
+     opacity: 1;}
+}
+.main3xian img{
+	width: 77px;
+	margin: 26px 30px 26px 63px;
+	display: inline-block;
+	float: left;
+}
+.main4{
+	width: 1920px;
+	height: 944px;
+	background: url(../img/indexImg/main3bj.png) no-repeat;
+	background-size: 100%;
+	padding: 1px 0;
+}
+.main4Box1{
+	width: 1399px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 1px;
+}
+.main4Box1 .main4ImgBig{
+	width: 472px;
+    height: 482px;
+    margin: 103px auto 0;
+}
+.main4smallBox{
+	position: absolute;
+}
+.main4Box1 .main4ImgSmall{
+	width: 74px;height: 74px;
+	float: left;
+	margin: 0 17px;
+}
+.main4Box1 .main4ImgXian{
+	width: 153px;height: 67px;
+	float: left;
+	position: relative;
+	top: 37px;
+	
+}
+.main4Box1 p{
+	width: 224px;
+	display: block;
+	float: left;
+	font-size: 20px;
+	color: #666;
+}
+.main5{
+	background: url(../img/productImg/main5bj1.jpg) no-repeat;
+    background-size: 100%;
+    width:1920px;
+    height:1470px;
+    padding-top: 1px;
+}

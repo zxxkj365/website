@@ -1,0 +1,300 @@
+/*==write---juning=====================================================*/
+html,body,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,menu,nav,header,footer,article{ margin:0; padding:0;}
+body{font-size:12px;font-family: "microsoft yahei" ! important; overflow-x: hidden;}
+@font-face {
+	font-family: 'SourceHanSansCN-Regular';
+	src: url(../css/fonts/SourceHanSansCN-Regular.otf);
+}
+@font-face {
+	font-family: 'SourceHanSansCN-Medium';
+	src: url(../css/fonts/SourceHanSansCN-Medium.otf);
+}
+@font-face {
+	font-family: 'SourceHanSansCN-Bold';
+	src: url(../css/fonts/SourceHanSansCN-Bold.otf);
+}
+a{text-decoration:none;color:#646464;outline: none;}
+a:hover{text-decoration:none;}
+img{display:block;border: 0px none;}
+ul,li{list-style:none;outline: none;}
+input{outline:none;}
+.cleardiv{clear: both;}
+a:focus {outline: none;}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a.icp {
+    color: #cfcfd4;
+}
+a.icp:hover {
+    color: #5dacf5;
+}
+audio {
+    width: 100%;
+}
+div,span,p,tr,td{
+    word-break: break-all;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*清除浮动以及外边距*/
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+	overflow: hidden;
+}
+/*头部导航nav样式*/
+.nav{
+	position: fixed;
+	top:0;
+	width: 1920px;
+	height: 120px;
+	z-index: 9999;
+}
+.whiteNav{
+	background: rgba(255,255,255,1);
+}
+.navUl{
+	float: right;
+	margin-right: 261px;
+}
+.navUl li{
+	float: left;
+	margin-top: 39px;	
+}
+.navUl li a{
+	display: block;
+	font-size: 18px;
+	color:#fff;
+	width:127px;
+	height:42px;
+	text-align: center;
+	border-radius: 20px;
+	line-height: 42px;
+}
+.whiteNav .navUl a{
+	color:#666;
+}
+.navUl li .activeA{
+	background: #4a90e2;
+	color: #fff;
+}
+#logo{
+	height: 54px; 
+	float: left; 
+	margin: 32px 0px 0px 260px;
+}
+#productIntro {
+	position: relative;
+}
+#productIntro .pull-down {
+	display: inline-block;
+	border-top: 7px solid #FFFFFF;
+	border-bottom: 7px solid transparent;	
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	position: absolute;
+	top: 17px;
+	right: 12px;
+}
+.whiteNav #productIntro .pull-down {
+	border-top-color: #666;
+}
+.whiteNav #productIntro .activeA+.pull-down {
+	border-top-color: #fff;
+}
+#productIntro ul.products {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	background: #fff;
+	display: none;
+}
+#productIntro .products li {
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	cursor: pointer;
+	border-bottom: 1px solid #eee;
+	margin: 0;
+}
+#productIntro .products li.on {
+	background: #4a90e2;
+}
+#productIntro .products li a {
+	color: #333;
+}
+#productIntro .products li.on a {
+	color: #fff;
+}
+/*遮罩层*/
+.mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background:rgba(0,0,0,0.3) ;
+	z-index: 99999;
+	display: none;
+}
+.closeTrial{
+	font-size: 36px;
+    float: right;
+    background: #fff;
+    border: none;
+    padding: 14px 30px 0 0;
+    color: #999;
+}
+/*试用*/
+.onTrial{
+	width:1150px;
+	height:590px;
+	margin: 189px auto;
+	background: #fff;
+	border-radius: 10px;
+}
+.onTrialLeft{
+	width: 400px;
+	height: 590px;
+	background: url(../img/indexImg/onTrial.png) no-repeat;
+    background-size: 100%;
+}
+.onTrialLeft,.onTrialRight{
+	float: left;
+}
+.onTrialRight{
+	width: 750px;
+	height: 590px;
+}
+.onTrialHeader{
+	height: 70px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.onTrialBtn,.agentBtn{
+	width: 140px;
+	height: 70px;
+	background: #fff;
+	border: none;
+	border-bottom: 2px solid #fff;
+	color: #999;
+	font-size: 20px;
+}
+.activeBtn{
+	color: #5890e8;
+	border-bottom: 2px solid #5890e8;
+}
+.onTrialRight span{
+	float: right;
+	color: #333;
+	font-size: 20px;
+	line-height: 50px;
+	margin-right: 27px;
+}
+.onTrialRight input[type=text]{
+	width: 380px;
+	text-indent: 1em;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	border: 1px solid #bbb;
+	float: right;
+	margin-right: 140px;
+}
+.phone_i,.person_i{
+	font-size: 12px;
+	color: red;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+	opacity: 0;
+}
+.noAgent,.noTrial{
+	font-size: 18px;
+	color: #999;
+	background: #eef1f6;
+	border-radius: 22px;
+	margin-left: 230px;
+	border: none;
+	width: 179px;
+	line-height: 46px;
+}
+.yesAgent,.yesTrial{
+	font-size: 18px;
+	color: #fff;
+	background: #5890e8;
+	border-radius: 22px;
+	margin-left: 22px;
+	border: none;
+	width: 179px;
+	line-height: 46px;
+}
+
+/*底部*/
+.footer{
+	background: #202e3f;
+    background-size: 100%;
+    width:1920px;
+    padding-top: 1px;
+    font-size: 18px;
+    color: #cfcfd4;
+}
+.footer .div1{
+	padding: 48px 47px 80px 200px;
+}
+
+.footer ul{
+    font-size: 22px;
+    color: #fff;
+    float: left;
+    margin: 0 20px;
+}
+.footer ul li{
+	line-height: 46px;
+}
+.footer b{
+    font-size: 31px;
+    color: #fff;
+    margin-left:10px;
+}
+.footer i{
+    font-size: 22px;
+    color: #fff;
+    margin: 0 10px;
+}
+.footer .div1,.footer .div2{
+	float: left;
+}
+.footer strong{
+	font-weight: 100;
+}
+.footer table {
+	width: 980px;
+	font-family: 'SourceHanSansCN-Medium';
+}
+.footer table th {
+	height: 96px;
+	text-align: left;
+	font-size: 32px;
+}
+.footer table td {
+	text-align: left;
+	font-size: 20px;
+	height: 52px;
+}
+.footer table .iconfont {
+	margin-left: 0;
+}

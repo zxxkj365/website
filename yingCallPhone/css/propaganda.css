@@ -1,0 +1,122 @@
+body{
+	background: #0b1629;
+}
+.propagandaDiv{
+	width: 100%;
+	position: relative;
+}
+.propagandaDiv img{
+	width: 100%;
+}
+
+.propagandaDiv .propagandaImg2{
+	position: absolute;
+	top: 8.12rem;
+	z-index: 10;
+	width: 100%;
+}
+.inputBoxKuang{
+    height: 0.77rem;
+    width: 6.9rem;
+    padding: 0.3rem;
+    margin: 0 auto;
+    background: url(../propagandaImg/icon_kuang.png) 0 0.025rem no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.inputBoxKuang i,.inputBoxKuang2 i{
+	color: red;
+	opacity: 0;
+	width: 6rem;
+	font-style: normal;
+	position: absolute;
+	left: 1rem;
+	bottom: -0.15rem;
+	margin: 0;
+	text-align: left;
+}
+.inputBoxKuang input{
+	height: 0.77rem;
+    width: 6.9rem;
+    background: none;
+    border: none;
+    text-indent: 2em;
+    color: #fff;
+    font-size: 0.34rem;
+}
+.inputBoxKuang2{
+    height: 0.77rem;
+    width: 5.68rem;
+    padding: 0.3rem;
+    margin: 0 auto;
+    background: url(../propagandaImg/icon_kuang.png) 0 0.11rem no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.inputBoxKuang2 input{
+	height: 0.77rem;
+    width: 5.68rem;
+    background: none;
+    border: none;
+    text-indent: 2em;
+    color: #fff;
+    font-size: 0.34rem;
+}
+
+.tijiaoH{
+	width: 100%;
+	font-size: 0.36rem;
+	color: #4ed0f0;
+	text-align: center;
+	font-family: "microsoft yahei";
+	margin: 0.4rem auto;
+	font-weight: 900;
+}
+.telNumsBox{
+	height: 1.5rem;
+	overflow: hidden;
+}
+.telNums{
+	width: 100%;
+	animation: imgAnimation 30s linear infinite ; 
+}
+ @keyframes imgAnimation{
+    from{}
+    to{
+        transform:translateY(-17.28rem);
+    }
+}
+.telNumsP,.telNums li{
+	width: 100%;
+	color: #fff;
+	line-height: 0.48rem;
+	font-size: 0.28rem;
+	text-align: center;
+	font-family: "microsoft yahei";
+}
+
+#bottomDiv2{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+.propagandaBtn1{
+	width: 2.5rem;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #f4f4f4; opacity:0.5; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #f4f4f4;opacity:0.5;
+}
+
+input:-ms-input-placeholder{
+    color: #f4f4f4;opacity:0.5;
+}
+
+input::-webkit-input-placeholder{
+    color: #f4f4f4;opacity:0.5;
+}

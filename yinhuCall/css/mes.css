@@ -1,0 +1,99 @@
+.introBox {
+    position: relative;
+}
+.introBox img.down-dot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -90px;
+    margin: auto;
+}
+.title {
+    width: 1400px;
+    height: 128px;
+    position: relative;
+    margin: 0 auto;
+}
+.title .line-l {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.title .title-con {
+    height: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.title .title-con .tit {
+    color: #333;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'SourceHanSansCN-Bold';
+}
+.title .title-con .sub-tit {
+    color: #999999;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'SourceHanSansCN-Regular';
+}
+.title .line-r {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.mes .items {
+    width: 1400px;
+    margin: 120px auto 0;
+}
+.mes .items .item {
+    width: 50%;
+    text-align: center;
+}
+.mes .items .item .img {
+    display: inline-block;
+}
+.mes .items .item .tit {
+    margin-top: 50px;
+    font-size: 45px;
+    color: #262121;
+}
+.mes .items .item .sub-tit {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #999;
+}
+.intelligentTest {
+    margin-top: 280px;
+}
+.intelligentTest .title {
+    margin-top: 160px;
+}
+.intelligentTest .items {
+    display: flex;
+    width: 1400px;
+    margin: 130px auto 170px;
+    justify-content: space-between;
+}
+.intelligentTest .items .item {
+    width: 312px;
+    height: 403px;
+    position: relative;
+}
+.intelligentTest .items .item .txt {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 105px;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+}

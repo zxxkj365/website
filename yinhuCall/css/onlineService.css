@@ -1,0 +1,217 @@
+.main1{
+	background: url(../img/onlineService/banner.png) no-repeat;
+    background-size: 100%;
+    width:1920px;
+    height:999px;
+    padding-top: 1px;
+    position: relative;
+}
+.main1 span {
+	color: #FFFFFF;
+	font-size: 35px;
+	position: absolute;
+	top: 714px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.main1 .introBox {
+	width: 1400px;
+	height: 448px;
+	background: #FFFFFF;
+	border-radius: 22px;
+	position: absolute;
+	bottom: -281px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 5px 20px #E3E8EE;
+}
+.main1 .introBox .img {
+	position: absolute;
+	left: 60px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.main1 .introBox .introContent {
+	width: 871px;
+	height: 342px;
+	position: absolute;
+	left: 446px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #999999;
+	font-size: 28px;
+	line-height: 64px;
+}
+.title {
+	width: 1400px;
+	height: 128px;
+	position: relative;
+	margin: 0 auto;
+}
+.title .line-l {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .line-r {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title .title-con {
+	width: 410px;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.title .title-con .tit {
+	color: #333;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.title .title-con .sub-tit {
+	color: #999999;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Medium';
+}
+.cards {
+	margin-top: 135px;
+}
+.cards .row {
+	display: flex;
+	width: 1400px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.cards .card-item {
+	width: 318px;
+	height: 318px;
+}
+.cards .card-item .info {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Regular';
+	font-size: 32px;
+}
+.cards .card-item .info.big {
+	font-size: 36px;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.cards .card-item .info img {
+	margin: 0 auto;
+}
+.web-bg {
+	background: url(../img/onlineService/web.png) no-repeat;
+}
+.phone-bg {
+	background: url(../img/onlineService/phone.png) no-repeat;
+}
+.email-bg {
+	background: url(../img/onlineService/email.png) no-repeat;
+}
+.h5-bg {
+	background: url(../img/onlineService/H5.png) no-repeat;
+}
+.wx-bg {
+	background: url(../img/onlineService/wechat.png) no-repeat;
+}
+.weibo-bg {
+	background: url(../img/onlineService/weibo.png) no-repeat;
+}
+.ios-bg {
+	background: url(../img/onlineService/ios.png) no-repeat;
+}
+.android-bg {
+	background: url(../img/onlineService/android.png) no-repeat;
+}
+
+.dataFun .content {
+	height: 2490px;
+	background-image: url(../img/onlineService/datafun-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dataFun .content .dataItem {
+	width: 1400px;
+	margin: 0 auto;
+}
+.dataFun .content .dataItem .block .dot {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: #4191EB;
+	margin-top: 167px;
+}
+.dataFun .content .dataItem .block .tit {
+	margin-top: 34px;
+	color: #333333;
+	font-size: 38px;
+	font-weight: bold;
+	font-weight: 'SourceHanSansCN-Bold';
+}
+.dataFun .content .dataItem .block .introduce {
+	margin-top: 32px;
+	color: #999;
+	font-size: 26px;
+	font-family:'SourceHanSansCN-Medium' ;
+}
+
+.mainFun {
+	height: 2125px;
+	background-image: url(../img/onlineService/mainfun-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mainFun .title .tit, .mainFun .title .sub-tit{
+	color: #fff;
+}
+.mainFun .content {
+	width: 1400px;
+	margin: 133px auto 0;
+}
+.mainFun .content .row {
+	margin-top: 142px;
+}
+.mainFun .item {
+	float: left;
+	width: 50%;
+}
+.mainFun .item .img {
+	float: left;
+}
+.mainFun .item .intro {
+	width: 466px;
+	padding-left: 165px;
+	color: #fff;
+}
+.mainFun .item .intro .tit {
+	font-size: 36px;
+	line-height: 1;
+	position: relative;
+	top: -5px;
+	font-family: 'SourceHanSansCN-Bold';
+}
+.mainFun .item .intro .detail {
+	font-size: 22px;
+	margin-top: 10px;
+	font-family: 'SourceHanSansCN-Medium';
+}

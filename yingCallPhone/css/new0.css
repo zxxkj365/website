@@ -1,0 +1,40 @@
+.backOff{
+	font-size: 0.34rem;
+	display: block;
+	width: 100%;
+	height: 0.7rem;
+	position: fixed;
+	top: 2.12rem;
+	text-indent: 2em;
+	background: #fff;
+}
+.main1{
+	width: 6.9rem;
+	margin: 0 0.3rem;
+}
+
+.main1 h1{
+	font-family: "microsoft yahei";
+	font-size: 0.44rem;
+	color: #000;
+}
+.new0time{	
+	margin:0.42rem 0 0.64rem ;
+	font-size: 0.32rem;
+	font-family: "microsoft yahei";
+	color: #999;
+}
+.main2{
+	width: 6.9rem;
+	margin:0 0.3rem;
+}
+.main2 img{
+	width: 6.9rem;
+	margin: 0 auto 0.38rem;
+}
+.main2 p{
+	font-size: 0.34rem;
+	font-family: "microsoft yahei";
+	color: #666;
+	text-indent: 2em;
+}

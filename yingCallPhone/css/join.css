@@ -1,0 +1,172 @@
+.main1{
+	width: 100%;
+}
+.main3_{
+    padding-top: 1px;
+}
+.main3_1Box{
+	width: 100%;
+	margin: 0.70rem auto 0;
+	text-align: center;
+}
+.h4pBox{
+	display:inline-block;
+	text-align: center;
+}
+.h3LR{
+	width: 1.8rem;
+    display: inline-block;
+    margin: 0.35rem 0.15rem;
+}
+.h2LR{
+	width: 0.8rem;
+    display: inline-block;
+    margin: 0.35rem 0.05rem;
+}
+.main3_h4{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 0.28rem;
+	margin: 0 auto;
+}
+.h4p{
+	font-size: 0.26rem;
+	color: #999;
+	line-height: 0.26rem;
+	margin: 0.15rem auto 0.43rem;
+}
+.h5p{
+	font-size: 0.22rem;
+	color: #999;
+	line-height: 0.22rem;
+	margin: 0.19rem auto 0.80rem;
+}
+.agent1,.agent2{
+	width: 4.07rem;
+	height: 0.64rem;
+	border: 1px solid #ddd;
+	font-size: 0.22rem;
+	text-indent: 1em;
+	margin: 0 auto;
+	display: block;
+}
+.tisii,.tisii{
+	display: inline-block;
+	margin: 0 auto;
+}
+.joinBtn{
+	width: 4.05rem;
+	background: #4a90e2;
+	border-radius: 0.1rem;
+	height: 0.62rem;
+	font-size: 0.24rem;
+	color: #fff;
+	margin: 0.15rem auto 0;
+	border:none;
+	display: block;
+}
+.scjy1{
+	width: 1.21rem;
+	margin: 0 auto;
+}
+
+.scjyP1{
+	color: #000;
+	font-size: 0.30rem;
+	text-align: center;
+	margin: 0.3rem 0 0.19rem;
+}
+.scjyP2{
+	color: #888;
+	font-size: 0.22rem;
+	text-align: center;
+}
+.main3_1Box1{
+	width: 100%;
+	margin: 0.4rem auto;
+}
+.main3_1Box1 li{
+	width: 6.18rem;
+	height: 2.08rem;
+	border-radius: 1.04rem;
+	padding: 1px 0;
+	background: #fff;
+	margin:0 auto 0.8rem;
+}
+.main3_1Box1 img{
+	width: 1.48rem;
+	margin: 0.30rem 0.29rem 0 0.39rem;
+	float: left;
+}
+.zsjmP_1{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 0.28rem;
+	margin: 0.37rem 0.66rem 0.24rem ;
+	text-align: left;
+}
+.zsjmP_2{
+	font-size: 0.22rem;
+	color: #888;
+	line-height: 0.26rem;
+	margin: 0 0.66rem 0;
+	text-align: left;
+}
+.scjy1Box{
+	width: 100%;
+	margin: 0.20rem auto 0;
+	text-align: center;
+}
+.scjy1Box li{
+	width: 100%;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 0.60rem;
+}
+
+.joinBJ{
+	background: url(../joinImg/joinBj.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 1px 0 0.69rem;
+}
+.main3_1Box2{
+	width: 100%;
+	margin: 0 auto 0.40rem;
+	text-align: center;
+}
+
+.main3_1Box2 li{
+	width: 6.90rem;
+    height: 2.50rem;
+    margin-bottom: 0.40rem;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 0 1rem #e0e0e0;
+    border-radius: 0.08rem;
+}
+.zsjm2{
+	width: 2.52rem;
+	height: 2.50rem;
+	float: left;
+}
+.zsjmP_3{
+	font-size: 0.28rem;
+    color: #333;
+    line-height: 0.26rem;
+    margin: 0.32rem 0.30rem 0.25rem;
+    text-align: left;
+    width: 3.7rem;
+    float: left;
+}
+.zsjmP_4{
+	width: 3.7rem;
+	font-size: 0.22rem;
+	color: #888;
+	line-height: 0.26rem;
+	margin: 0 0.3rem 0;
+	text-align: left;
+	float: left;
+}
+/*------*/
+
+

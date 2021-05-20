@@ -1,0 +1,232 @@
+/*==write---juning=====================================================*/
+html,body,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,menu,nav,header,footer,article{ margin:0; padding:0;}
+body{font-size:12px;overflow-x: hidden;font-family: "MicrosoftYaHei-Bold,Microsoft YaHei" ! important;}
+a{text-decoration:none;color:#646464;outline: none;}
+a:hover{text-decoration:none;}
+img{display:block;border: 0px none;}
+ul,li{list-style:none;outline: none;}
+input{outline:none;}
+.cleardiv{clear: both;}
+a:focus {outline: none;}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+audio {
+    width: 100%;
+}
+div,span,p,tr,td{
+    word-break: break-all;
+}
+input[type="button"] {
+	-webkit-appearance:none; /*去除input默认样式*/
+}
+/*头部导航nav样式*/
+.nav{
+	position: fixed;
+	top:0;
+	width: 7.5rem;
+	z-index: 9999;
+	background: rgba(255,255,255,1);
+}
+.nav img{
+	height: 0.63rem;
+	margin: 0.29rem 0 0.28rem 0.3rem ;
+}
+.navUl{
+	height: 0.86rem;
+	margin-bottom: 0.06rem;	
+	padding-left:0.05rem;
+}
+.navUl li{
+	float: left;
+	margin-top: 0.12rem;	
+}
+.navUl li a{
+	display: block;
+    font-size: 0.3rem;
+    color: #666;
+    padding: 0 0.4rem;
+    height: 0.6rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
+}
+.navUl li .activeA{
+	background: #4a90e2;
+	color: #fff;
+}
+/*遮罩层*/
+.mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background:rgba(0,0,0,0.3) ;
+	z-index: 99999;
+	display: none;
+}
+.closeAgent{
+	width: 0.31rem;
+    position: absolute;
+	top: 0.45rem;
+	right: 0.45rem;
+}
+/*试用*/
+.onAgent{
+	position: relative;
+	width:6.92rem;
+	margin: 3.14rem auto;
+	background: #fff;
+	border-radius: 0.1rem;
+}
+.onAgentHeader{
+	text-align: center;
+	height: 1.21rem;
+	font-size: 0.31rem;
+	color: #333;
+	font-family: "PingFang-SC-Medium";
+	line-height: 1.21rem;
+}
+
+.onAgent span{
+	float: left;
+	width: 1.87rem;
+	color: #333;
+	font-size: 0.25rem;
+	line-height: 0.65rem;
+	padding-right:0.3rem;
+	text-align: right;
+	font-family: "PingFang-SC-Medium";
+}
+.onAgent input[type=text]{
+	width: 4.26rem;
+	text-indent: 1em;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.22rem;
+	font-family: "PingFang-SC-Medium";
+	border: 1px solid #bbb;
+	float: left;
+	margin-bottom: 0.02rem;
+}
+.phone_i,.person_i{
+	font-size: 0.12rem;
+	color: red;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0.65rem;
+	opacity: 0;
+}
+.noAgent{
+	font-size: 0.36rem;
+	color: #999;
+	background: #eef1f6;
+	border-radius: 0.05rem;
+	font-family: "PingFang-SC-Medium";
+	border: none;
+	width: 50%;
+	line-height: 1.01rem;
+	float: left;
+}
+.yesAgent{
+	font-size: 0.36rem;
+	color: #fff;
+	background: #5890e8;
+	border-radius: 0.05rem;
+	font-family: "PingFang-SC-Medium";
+	border: none;
+	width: 50%;
+	line-height: 1.01rem;
+	float: left;
+}
+
+/*底部*/
+.footer{
+	background: #202e3f;
+    width:100%;
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.2rem;
+    color: #cfcfd4;
+}
+.footer .div2{
+	padding:0 0.4rem;
+}
+.footer .div1{
+	margin-top: 0.97rem;
+	width: 4.4rem;
+}
+.footer .div1 p{
+	line-height: 0.4rem;
+}
+.footer span{
+	font-family: "PingFang-SC-Medium";
+    font-size: 0.2rem;
+    color: #fff;
+}
+.footer .div1,.footer .div2{
+	float: left;
+}
+.footer strong{
+	font-weight: 100;
+	font-size: 0.12rem;
+}
+.bottomDiv{
+	width: 100%;height: 1rem;background: #202e3f;
+}
+.joinBtnBox{
+	width: 2.5rem;
+    height: 1rem;
+    background: #ed7070;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 0.3rem;
+}
+.icon_join{
+	width: 0.42rem;
+    display: inline-block;
+    margin: 0 0.1rem;
+    position: relative;
+    top: 0.04rem;
+}
+.shiyong{
+	width: 2.5rem;
+	position: fixed;
+	bottom: 0;
+	left: 0rem;
+}
+.tiyan{
+	width: 2.5rem;
+	position: fixed;
+	bottom: 0;
+	left: 2.5rem;
+}
+/*kefu*/
+/*美洽*/
+/*#MEIQIA-BTN-HOLDER #MEIQIA-BTN #MEIQIA-BTN-PICTURE{
+	width: 2.5rem;
+}*/
+/*百度商桥*/
+body #newBridge #nb_icon_wrap.nb-icon-wrap.nb-icon-right-bottom.nb-icon-wrap-3{
+	width: 2.5rem;
+    height: 1rem;
+    position: fixed;
+    right: 0;
+    border-radius: 0;
+    bottom: -2rem;
+}
+body #newBridge #nb_icon_wrap .nb-icon-customer{
+	width: 2.5rem;
+    height: 1rem;
+    position: fixed;
+    right: 0;
+    border-radius: 0;
+    bottom: 0;
+}
